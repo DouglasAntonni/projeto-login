@@ -7,31 +7,39 @@
     <link rel="stylesheet" href="stilos/style.css">
     <link rel="stylesheet" href="stilos/mediaqueries.css">
     <title>Long Horse Resort</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Long Horse Resort</h1>
-
-    </header>
+   
     <main>
+        
+    <h1>Long Horse Resort</h1>
+    
       <section id="login">
-        <div id="imagem">
-            
-
-        </div>
+        <div id="imagem"></div>
         <div id="Formulario">
-            <h1>Login:</h1>
+            <h2>Login:</h2>
             <p>seja bem vindo(a) novamente. Faça login para ter acesso ao site:</p>
             <form action="login.php" method="post">
-
+                <div class="campo">
+                    <span class="material-icons">person</span>
+                    <input type="email" name="login" id="ilogin" placeholder="Digite seu e-mail" autocomplete="email" maxlength="30" required>
+                    <label for="login"> </label>
+            </div>
+            <div class="campo">
+                <span class="material-icons">vpn_key</span>
+                <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" autocomplete="current-password" minlength="8" maxlength="20" required>
+                <label for="login"> </label>
+            </div>
+            <input type="button" value="Entrar">
+            <a href="escqueci.html">
+                Esqueci a senha<span class="material-icons">mail</span></a>
             </form>
             
         </div>
       </section>
    
     </main>
-    <footer>
-
-    </footer>    
+      
 </body>
 </html>

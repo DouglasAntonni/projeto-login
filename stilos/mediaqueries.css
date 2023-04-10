@@ -1,8 +1,55 @@
 @charset "utf-8";
 @media screen and (min-width:768px) and (max-width:992px)  {
-    
+    body{
+        background-image: url(../imagens/img4.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    section#login{
+        width: 60vw;
+    }
+    section#login > div#imagem{
+        background-image: url(../imagens/back2.png);
+        float: left;
+        width: 40%;
+        height: 100%;
 
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    }
 }
 @media screen and (min-width:992px) {
+    body{
+        background-image: url(../imagens/back3.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    section#login{
+        width: 990px;
+    }
+    section#login > div#imagem{
+        background-image: url(../imagens/img3.png);
+        background-size: cover;
+        float: right;
+        width: 50%;
+        height: 100%;
 
+    }
+    section#login > div#formulario{
+        float: left;
+        width: 100%;
+    }
+    section#login > div#formulario > h2{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    section#login > div#formulario > p{
+        font-size: 1.2em;
+    }
+    
+    
 } 
