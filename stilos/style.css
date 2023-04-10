@@ -7,13 +7,19 @@
     box-sizing: border-box;
 }
 html,body{
-    background-color: rgb(253, 69, 69);
+    background-image: url(../imagens/back1.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-position: cover;
     width: 100vw;
     height: 100vh;
     
    }
-header{
-  background-color: aqua;
+header > h1{
+    color: aqua;
+    font-size: 3em;
+     text-align: center;
+    text-shadow: 5px 5px 3px rgb(15, 15, 15);
 }
 main{
     
@@ -34,6 +40,8 @@ section#login{
     transform: translate(-50%,-50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.582);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: is;
 }
 section#login > div#imagem{
     background: black url(../imagens/img1.png) no-repeat ;
