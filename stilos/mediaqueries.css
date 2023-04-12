@@ -16,7 +16,7 @@
         height: 100%;
 
     }
-    section#login > div#Formulario{
+    section#login > div#formo{
         float: right;
         width: 70%;
     }
@@ -39,15 +39,15 @@
         height: 100%;
 
     }
-    section#login > div#Formulario{
+    section#login > div#formo{
         float: left;
         width: 100%;
     }
-    section#login > div#Formulario > h2{
+    section#login > div#formo > h2{
         text-align: center;
         margin-bottom: 10px;
     }
-    section#login > div#Formulario > p{
+    section#login > div#formo > p{
         font-size: 1.2em;
     }
     

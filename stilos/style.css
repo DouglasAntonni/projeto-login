@@ -51,16 +51,16 @@ section#login > div#imagem{
     height: 200px;
     display: block;
 }
-section#login > div#Formulario{
+section#login > div#formo{
     display: block;
     padding: 10px;
 
 }
-section#login > div#Formulario > h2{
+section#login > div#formo > h2{
     text-align: center;
     margin-bottom: 10px;
 }
-div#Formulario > p{
+div#formo > p{
     font-size: 0.8em;
 }
 form > input[type=submit]{
