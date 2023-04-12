@@ -1,47 +1,51 @@
 @charset "utf-8";
 @media screen and (min-width:768px) and (max-width:992px)  {
+    
     body{
+        background-color: rgb(144, 3, 163);
         background-image: url(../imagens/img4.png);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
     }
     section#login{
-        width: 60vw;
+        width: 80vw;
     }
-    section#login > div#imagem{
+    section#login > #imagem{
+        background-color: blueviolet;
         background-image: url(../imagens/back2.png);
         float: left;
-        width: 40%;
+        width: 30%;
         height: 100%;
 
     }
-    section#login > div#formulario{
+    section#login > #formulario{
         float: right;
         width: 70%;
     }
 }
-@media screen and (min-width:993px) {
+@media screen and (min-width:992px) {
     body{
+        background-color: rgb(144, 3, 163);
         background-image: url(../imagens/back3.png);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
     }
     section#login{
-        width: 990px;
+        width: 940px;
     }
-    section#login > div#imagem{
+    section#login > #imagem{
         background-image: url(../imagens/img3.png);
         background-size: cover;
-        float: right;
+        float: left;
         width: 50%;
         height: 100%;
 
     }
-    section#login > div#formulario{
-        float: left;
-        width: 100%;
+    section#login > #formulario{
+        float: right;
+        width: 50%;
     }
     div#formulario > h2{
         text-align: center;
@@ -49,6 +53,7 @@
     }
     div#formulario > p{
         font-size: 1.2em;
+        text-align: justify;
     }
     
     
